@@ -1,0 +1,140 @@
+
+getUsers:
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Pasindu, emp_middle_name: Heshan, emp_lastName: Senanayake, employee_id: A001 }
+  - ohrm_user:
+      0: { id: 2, user_role_id: 2, emp_number: 1, user_name: Pasindu, user_password: $2y$12$7JTgJptYOO98IFul5it5feYrOnSPNGHXk/Cz5MysGrL15jIFBJIfq, deleted: 0, status: 1, created_by: 1 }
+
+loginUser:
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Pasindu, emp_middle_name: Heshan, emp_lastName: Senanayake, employee_id: A001 }
+  - ohrm_user:
+      0: { id: 2, user_role_id: 2, emp_number: 1, user_name: Pasindu, user_password: $2y$12$7JTgJptYOO98IFul5it5feYrOnSPNGHXk/Cz5MysGrL15jIFBJIfq, deleted: 0, status: 1, created_by: 1 }
+
+punchIn:
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Sanath, emp_middle_name: Teran, emp_lastName: Jayasooriya, employee_id: A001 }
+
+punchOut:
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Sanath, emp_middle_name: Teran, emp_lastName: Jayasooriya, employee_id: A001 }
+  - ohrm_attendance_record:
+      0: { id: 1, employee_id: 1, punch_in_user_time: '2005-12-30 01:02:00', punch_in_note: 'Test API Note', punch_in_utc_time: '2005-12-30 00:02:00', punch_in_time_offset: 1, state: 'PUNCHED IN' }
+
+getCustomer:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+      1: {customer_id: 2, name: 'TestCustomer2', Description: 'TestCustomerAPIDescription2', is_deleted: 0}
+
+updateCustomer:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+
+deleteCustomer:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+
+saveProject:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+
+updateProject:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+        0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+
+getProject:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+        0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+        0: {activity_id: 1, project_id: 1, name: 'TestProjectActivityAPI', is_deleted: 0}
+
+deleteProject:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+
+
+saveActivity:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+
+updateActivity:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+      0: {activity_id: 1, project_id: 1, name: 'TestProjectActivityAPI', is_deleted: 0}
+
+getActivity:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+      0: {activity_id: 1, project_id: 1, name: 'TestActivityAPI', is_deleted: 0}
+
+deleteActivity:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+      0: {activity_id: 1, project_id: 1, name: 'TestActivityAPI', is_deleted: 0}
+
+
+saveTimeSheet:
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Sanath, emp_middle_name: Teran, emp_lastName: Jayasooriya, employee_id: A001 }
+
+updateTimeSheet:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+        0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+        0: {activity_id: 1, project_id: 1, name: 'TestProjectActivityAPI', is_deleted: 0}
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Sanath, emp_middle_name: Teran, emp_lastName: Jayasooriya, employee_id: A001 }
+  - ohrm_timesheet:
+      0: {timesheet_id: 1, employee_id: 1, state: 'CREATED', start_date: '2017-02-13',end_date: '2017-02-20'}
+
+
+getTimeSheet:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+      0: {activity_id: 1, project_id: 1, name: 'TestProjectActivityAPI', is_deleted: 0}
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Sanath, emp_middle_name: Teran, emp_lastName: Jayasooriya, employee_id: A001 }
+  - ohrm_timesheet:
+      0: {timesheet_id: 1, employee_id: 1, state: 'CREATED', start_date: '2017-02-13',end_date: '2017-02-20'}
+  - ohrm_timesheet_item:
+      0: {timesheet_item_id: 1, timesheet_id: 1, employee_id: 1, comment: 'TestComment', date: '2017-02-13',duration: '3600', project_id: 1, employee_id: 1, activity_id: 1}
+
+
+
+deleteTimeSheetRow:
+  - ohrm_customer:
+      0: {customer_id: 1, name: 'TestCustomer', Description: 'TestCustomerAPIDescription', is_deleted: 0}
+  - ohrm_project:
+      0: {customer_id: 1, project_id: 1, name: 'TestProjectAPI', Description: 'TestProjectAPIDescription', is_deleted: 0}
+  - ohrm_project_activity:
+      0: {activity_id: 1, project_id: 1, name: 'TestProjectActivityAPI', is_deleted: 0}
+  - hs_hr_employee:
+      0: { emp_number: 1, emp_firstName: Sanath, emp_middle_name: Teran, emp_lastName: Jayasooriya, employee_id: A001 }
+  - ohrm_timesheet:
+      0: {timesheet_id: 1, employee_id: 1, state: 'CREATED', start_date: '2017-02-13',end_date: '2017-02-20'}
+  - ohrm_timesheet_item:
+      0: {timesheet_item_id: 1, timesheet_id: 1, employee_id: 1, comment: 'TestComment', date: '2017-02-13',duration: '3600', project_id: 1, employee_id: 1, activity_id: 1}
+
+

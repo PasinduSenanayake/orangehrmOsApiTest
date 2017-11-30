@@ -1,0 +1,50 @@
+Client Info
+
+User Agent : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36
+Remote Address : 10.5.0.1
+
+Server Info
+
+Host : osapitest:9443
+PHP Version : 5.6.30
+Server : Apache/2.4.10 (Debian)
+Admin : webmaster@orangehrm.com
+
+Document Root : /var/www/html/osapitest/symfony/web
+ROOT_PATH : /var/www/html/osapitest/symfony/web/orangehrm
+
+OrangeHRM Installation Log
+
+Thu, 14 Sep 2017 06:52:39 -0400 DB Creation - Starting
+Thu, 14 Sep 2017 06:52:39 -0400 DB Creation - Done
+Thu, 14 Sep 2017 06:52:39 -0400 DB Creation - No Errors
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - Starting
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - Connected to the DB Server
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - Selected the DB
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - Reading DB Script
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - Opened DB Script
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - Read DB script
+Thu, 14 Sep 2017 06:52:41 -0400 Fill Data Phase 1 - There are 285 Statements in the DB script
+Thu, 14 Sep 2017 06:52:44 -0400 MySQL Procedure Error:No database selected
+Thu, 14 Sep 2017 06:52:44 -0400 Fill Data Phase 1 - Done
+Thu, 14 Sep 2017 06:52:44 -0400 Fill Data Phase 1 - No Errors
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Starting
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Connected to the DB Server
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Selected the DB
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Reading DB Script
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Opened DB Script
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Read DB script
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - There are 135 Statements in the DB script
+Thu, 14 Sep 2017 06:52:46 -0400 MySQL Event Error:No database selected
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 1 - Connected to the DB Server
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - Done
+Thu, 14 Sep 2017 06:52:46 -0400 Fill Data Phase 2 - No Errors
+Thu, 14 Sep 2017 06:52:48 -0400 Create DB user - Starting
+Thu, 14 Sep 2017 06:52:48 -0400 Create DB user - Done
+Thu, 14 Sep 2017 06:52:48 -0400 Create DB user - No Errors
+Thu, 14 Sep 2017 06:52:50 -0400 Create OrangeHRM user - Starting
+Thu, 14 Sep 2017 06:52:51 -0400 Create OrangeHRM user - Done
+Thu, 14 Sep 2017 06:52:51 -0400 Create OrangeHRM user - No Errors
+Thu, 14 Sep 2017 06:52:53 -0400 Write Conf - Starting
+Thu, 14 Sep 2017 06:52:53 -0400 Write Conf - Done
+Thu, 14 Sep 2017 06:52:53 -0400 Write Conf - No Errors
